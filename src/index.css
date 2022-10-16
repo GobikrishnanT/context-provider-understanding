@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.model-close {
+  /* display: none; */
+  visibility: hidden;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.main-box {
+  min-height: 500px;
+}
+
+.flex-center-all-col {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-center-all-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-sb-all-col {
+  display: flex;
+  flex-direction: col;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-sb-all-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-config {
+  background-color: rgb(72, 2, 72);
+  color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+
